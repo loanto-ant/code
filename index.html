@@ -102,7 +102,8 @@
     function check_zwei(){
         var ausgabe_zwei = document.getElementById("ausgabe-2");
         var eingabe_zwei = document.getElementById("text-2").value;
-        if (eingabe_zwei == "2DxF74") {
+        eingabe_zwei = eingabe_zwei.toUpperCase();
+        if (eingabe_zwei == "2DXF74") {
             ausgabe_zwei.innerHTML = "Nächster Hinweis hier";
         } else{
             ausgabe_zwei.innerHTML = "Falsches Passwort";
